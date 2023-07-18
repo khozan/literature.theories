@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="default/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="default/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="The_theories_of_literature_pro_mobile.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<script>
+$(document).on("pagecreate", "#index", function(event)
+{
+   $("#ListView1").listview(
+   {
+      inset: false
+   });
+});
+</script>
+</head>
+<body>
+<div data-role="page" data-theme="a" data-title="Untitled Page" id="index">
+<div data-role="header" data-theme="c" id="Header1">
+<h1>The theories of literature</h1>
+</div>
+<div class="ui-content" role="main">
+
+<form><input type="text" data-type="search" id="ListView1-filter-input" placeholder="Filter items..."></form>
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#ListView1-filter-input" id="ListView1">
+<li><a href="./Aristotelian-Theory-of-Poetics-.html"><strong>Aristotelian Theory of Poetics</strong></a></li>
+<li><a href="./Classical-Theory-of-Mimesis-.html"><strong>Classical Theory of Mimesis</strong></a></li>
+<li><a href="./Formalism-or-New-Criticism-.html"><strong>Formalism or New Criticism</strong></a></li>
+<li><a href="./Reader-Response-Theory.html"><strong>Reader-Response Theory</strong></a></li>
+<li><a href="./Structuralism.html"><strong>Structuralism</strong></a></li>
+<li><a href="./Poststructuralism.html"><strong>Poststructuralism</strong></a></li>
+<li><a href="./Feminist-Theory-.html"><strong>Feminist Theory </strong></a></li>
+<li><a href="./Postcolonial-Theory.html"><strong>Postcolonial Theory</strong></a></li>
+<li><a href="./Deconstruction.html"><strong>Deconstruction</strong></a></li>
+<li><a href="./New-Historicism.html"><strong>New Historicism</strong></a></li>
+<li><a href="./Queer-Theory.html"><strong>Queer Theory</strong></a></li>
+<li><a href="./Ecocriticism.html"><strong>Ecocriticism</strong></a></li>
+<li><a href="./Posthumanism.html"><strong>Posthumanism</strong></a></li>
+<li><a href="./Cognitive-Poetics.html"><strong>Cognitive Poetics </strong></a></li>
+</ul>
+</div>
+<div data-role="footer" data-theme="c" id="Footer1" data-position="fixed"><h4>khozan</h4></div>
+</div>
+</body>
+</html>

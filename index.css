@@ -1,0 +1,23 @@
+#index
+{
+   text-align: center;
+}
+body
+{
+   background-color: #FFFFFF;
+}
+#Header1 h1
+{
+   color: #FFFFFF;
+}
+#Footer1 h4
+{
+   color: #FFFFFF;
+   font-style: normal;
+}
+#ListView1 li img
+{
+   height: 80px;
+   width: 80px;
+   padding: 0px;
+}

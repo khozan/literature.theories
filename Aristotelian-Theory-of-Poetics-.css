@@ -1,0 +1,33 @@
+#Aristotelian-Theory-of-Poetics-
+{
+   text-align: center;
+}
+body
+{
+   background-color: #FFFFFF;
+}
+#Header1 h1
+{
+   color: #FFFFFF;
+}
+#Footer1 h4
+{
+   color: #FFFFFF;
+   font-style: normal;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   text-align: justify;
+   vertical-align: top;
+}
+#wb_Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
